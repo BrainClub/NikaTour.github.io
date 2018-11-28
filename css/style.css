@@ -7,12 +7,14 @@ body{
 
 }
 .content{
-   min-width: 1170px;
+   width: 1170px;
     margin: 0 auto;
     text-align: center;
-    font-size: 30px;
+
 }
 h1{
+    font-size: 1.2em;
+    font-weight: 100;
 }
 h2 {
 }
@@ -34,16 +36,94 @@ li{
 a{
     text-decoration: none;
 }
+
+
+#header{
+
+    position: absolute;
+    z-index: 3;
+    top:0;
+    left: 0;
+    right: 0;
+
+}
+#header.default{
+    position: fixed;
+    z-index: 3;
+    top:0;
+    left: 0;
+    right: 0;
+    background: rgba(255, 255, 255, 0.9);
+}
+
+
+
+.headerbetween{
+    z-index: 3;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.sl__img1{
+    background: #fff url("../img/slides/slide4.jpg") 0 0 no-repeat;
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    position: relative;
+}
+
+
+.sl__img2{
+    background: #fff url("../img/slides/slide2.jpg") 0 0 no-repeat;
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    position: relative;
+}
+
+
+.sl__img3{
+    background: #fff url("../img/slides/slide3.jpg") 0 0 no-repeat;
+    height: 100vh;
+    width: 100%;
+
+    background-size: cover;
+    position: relative;
+}
+.fcenter{
+    z-index: 2;
+    text-align: left;
+    font-size: 4em;
+    color: white;
+    width: 1170px;
+    margin: 0 auto;
+    height: 100vh;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center ;
+}
+
+.sl h1{
+    z-index: 2;
+}
+
+.sl_overflow{
+    z-index: 1;
+    position: absolute;
+    background: rgba(0, 0, 0, 0.3);
+    height: 100vh;
+    width: 100%;
+    top: 0;
+}
+
 .language{
     padding: 10px 20px;
 }
-.header{
-    background: url("../img/back/title.png") 0 0 no-repeat;
 
-    min-width: 1180px;
-    height: 100vh;
-    background-size: cover;
-}
 
 .FBetween{
     display: flex;
@@ -51,10 +131,9 @@ a{
     align-items: center;
 }
 .logo{
-    margin: 15px;
-    background:  url("../img/logo/logo.png") center center no-repeat;
+    background:  url("../img/logo/final-logo2.png") center center no-repeat;
     height: 80px;
-    width: 15%;
+    width: 25%;
     background-size: 100%;
 }
 
@@ -62,6 +141,9 @@ a{
     list-style:none;
     display: flex;
 }
+
+
+
 .menu ul a
 {
     display:block;

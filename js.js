@@ -1,8 +1,14 @@
 $('.sl').slick(
   {
     dots: false,
-    slidesToShow: 5,
-    slidesToScroll: 1
+    fade: true,
+    arrows : false,
+    autoplay: true,
+    Speed: 1500,
+    pauseOnHover: false,
+    autoplaySpeed: 3300
+
+
 
   }
 );
