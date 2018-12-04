@@ -4,7 +4,7 @@ $('.sl').slick(
     fade: true,
     arrows : false,
     autoplay: true,
-    Speed: 1500,
+    Speed: 500,
     pauseOnHover: false,
     autoplaySpeed: 3300
 

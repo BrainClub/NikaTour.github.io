@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <meta name="viewport" content="width=device-width">
+
+
     <title>PullRequest</title>
 
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
@@ -26,7 +29,6 @@
             $(window).scroll(function(){
                 if ($(this).scrollTop() > document.documentElement.clientHeight) {
                   $("#header").addClass("default").fadeIn('fast');
-
                 }else {
                   $("#header").removeClass("default").fadeIn('fast');
                 };
@@ -37,7 +39,6 @@
 <body>
   <header id="menu" class="">
 
-
         <div id="header">
             <div class="content">
             <div class="FBetween">
@@ -46,18 +47,18 @@
             <div class="FBetween">
                 <nav class="menu">
                     <ul class="flex">
-                        <li class=""><a href="#">Головна</a></li>
-                        <li><a href="#">Тури</a> <ul>
-                            <li><a>По Україні</a></li>
-                            <li><a>За кордоном</a>
-                                <ul> <li><a>dima</a></li>
-                                    <li><a>dima</a></li>
-                                    <li><a>dima</a></li></ul>
+                        <li class=""><a href="#">Main</a></li>
+                        <li><a href="#">Tour</a> <ul>
+                            <li><a>In Ukraine</a></li>
+                            <li><a>Abroad </a>
+                                <!--<ul> <li><a>dima</a></li>-->
+                                    <!--<li><a>dima</a></li>-->
+                                    <!--<li><a>dima</a></li></ul>-->
                             </li>
                         </ul></li>
-                        <li><a href="#">Блог</a></li>
-                        <li><a href="#">Про&nbsp;нас</a></li>
-                        <li><a href="#">Контакти</a></li>
+                        <li><a href="#">Blog</a></li>
+                        <li><a href="#">About&nbsp;us</a></li>
+                        <li><a href="#">Contact</a></li>
 
                     </ul>
 
@@ -111,6 +112,32 @@
   </header>
 
   <main id="about">
+      <section class="select">
+          <div class="content fcolumn">
+              <div>
+                  <h2>Where are we going to go?</h2>
+              </div>
+              <ul class="fspacearound">
+
+                  <li>
+                      <h3>Abrout</h3>
+                      <a href="" class="selectimg2"></a>
+                  </li>
+
+                  <li>
+                      <h3>Kamianets-Podilskyi</h3>
+                      <a href="" class="selectimg1"></a>
+                  </li>
+
+                  <li>
+                      <h3>Ukraine</h3>
+                      <a href="" class="selectimg3"></a>
+                  </li>
+              </ul>
+          </div>
+      </section>
+
+
       <section class="Tour">
         <div class="content">
         <h2>
